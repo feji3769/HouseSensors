@@ -15,6 +15,19 @@
 		95F38DF7244E196C00D48E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F38DF5244E196C00D48E1A /* LaunchScreen.storyboard */; };
 		95F38E02244E196D00D48E1A /* HouseStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E01244E196D00D48E1A /* HouseStatusTests.swift */; };
 		95F38E0D244E196D00D48E1A /* HouseStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E0C244E196D00D48E1A /* HouseStatusUITests.swift */; };
+		95F38E1D244E97C800D48E1A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E1C244E97C800D48E1A /* CircleImage.swift */; };
+		95F38E1F244E9ECF00D48E1A /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E1E244E9ECF00D48E1A /* HomePage.swift */; };
+		95F38E21244E9F8800D48E1A /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E20244E9F8800D48E1A /* HouseList.swift */; };
+		95F38E23244E9FB000D48E1A /* HelpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E22244E9FB000D48E1A /* HelpPage.swift */; };
+		95F38E25244EA00300D48E1A /* HouseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E24244EA00300D48E1A /* HouseRow.swift */; };
+		95F38E27244EA11900D48E1A /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E26244EA11900D48E1A /* House.swift */; };
+		95F38E2A244EA45C00D48E1A /* HouseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 95F38E29244EA45C00D48E1A /* HouseData.json */; };
+		95F38E2D244EA75300D48E1A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E2C244EA75300D48E1A /* Data.swift */; };
+		95F38E2F244EAFC800D48E1A /* HouseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F38E2E244EAFC800D48E1A /* HouseDetail.swift */; };
+		95F38E33244EB37800D48E1A /* house00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95F38E32244EB37800D48E1A /* house00.jpg */; };
+		95F38E35244EB49B00D48E1A /* house01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95F38E34244EB49B00D48E1A /* house01.jpg */; };
+		95F38E38244EB4D800D48E1A /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95F38E36244EB4D800D48E1A /* chincoteague.jpg */; };
+		95F38E39244EB4D800D48E1A /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95F38E37244EB4D800D48E1A /* chilkoottrail.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		95F38E08244E196D00D48E1A /* HouseStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F38E0C244E196D00D48E1A /* HouseStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseStatusUITests.swift; sourceTree = "<group>"; };
 		95F38E0E244E196D00D48E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F38E1C244E97C800D48E1A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		95F38E1E244E9ECF00D48E1A /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		95F38E20244E9F8800D48E1A /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
+		95F38E22244E9FB000D48E1A /* HelpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage.swift; sourceTree = "<group>"; };
+		95F38E24244EA00300D48E1A /* HouseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRow.swift; sourceTree = "<group>"; };
+		95F38E26244EA11900D48E1A /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		95F38E29244EA45C00D48E1A /* HouseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HouseData.json; sourceTree = "<group>"; };
+		95F38E2C244EA75300D48E1A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		95F38E2E244EAFC800D48E1A /* HouseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetail.swift; sourceTree = "<group>"; };
+		95F38E32244EB37800D48E1A /* house00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house00.jpg; sourceTree = "<group>"; };
+		95F38E34244EB49B00D48E1A /* house01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house01.jpg; sourceTree = "<group>"; };
+		95F38E36244EB4D800D48E1A /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chincoteague.jpg; path = ../../../../../../Downloads/BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/chincoteague.jpg; sourceTree = "<group>"; };
+		95F38E37244EB4D800D48E1A /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chilkoottrail.jpg; path = ../../../../../../Downloads/BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/chilkoottrail.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,21 @@
 		95F38DE9244E196A00D48E1A /* HouseStatus */ = {
 			isa = PBXGroup;
 			children = (
+				95F38E2B244EA52D00D48E1A /* Models */,
+				95F38E28244EA2D900D48E1A /* Resources */,
 				95F38DEA244E196A00D48E1A /* AppDelegate.swift */,
 				95F38DEC244E196A00D48E1A /* SceneDelegate.swift */,
 				95F38DEE244E196A00D48E1A /* ContentView.swift */,
+				95F38E24244EA00300D48E1A /* HouseRow.swift */,
+				95F38E20244E9F8800D48E1A /* HouseList.swift */,
+				95F38E2E244EAFC800D48E1A /* HouseDetail.swift */,
+				95F38E22244E9FB000D48E1A /* HelpPage.swift */,
+				95F38E1E244E9ECF00D48E1A /* HomePage.swift */,
 				95F38DF0244E196C00D48E1A /* Assets.xcassets */,
 				95F38DF5244E196C00D48E1A /* LaunchScreen.storyboard */,
 				95F38DF8244E196C00D48E1A /* Info.plist */,
 				95F38DF2244E196C00D48E1A /* Preview Content */,
+				95F38E1C244E97C800D48E1A /* CircleImage.swift */,
 			);
 			path = HouseStatus;
 			sourceTree = "<group>";
@@ -134,6 +168,27 @@
 				95F38E0E244E196D00D48E1A /* Info.plist */,
 			);
 			path = HouseStatusUITests;
+			sourceTree = "<group>";
+		};
+		95F38E28244EA2D900D48E1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95F38E37244EB4D800D48E1A /* chilkoottrail.jpg */,
+				95F38E36244EB4D800D48E1A /* chincoteague.jpg */,
+				95F38E34244EB49B00D48E1A /* house01.jpg */,
+				95F38E32244EB37800D48E1A /* house00.jpg */,
+				95F38E29244EA45C00D48E1A /* HouseData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95F38E2B244EA52D00D48E1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95F38E26244EA11900D48E1A /* House.swift */,
+				95F38E2C244EA75300D48E1A /* Data.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F38E2A244EA45C00D48E1A /* HouseData.json in Resources */,
+				95F38E39244EB4D800D48E1A /* chilkoottrail.jpg in Resources */,
 				95F38DF7244E196C00D48E1A /* LaunchScreen.storyboard in Resources */,
+				95F38E33244EB37800D48E1A /* house00.jpg in Resources */,
+				95F38E38244EB4D800D48E1A /* chincoteague.jpg in Resources */,
 				95F38DF4244E196C00D48E1A /* Preview Assets.xcassets in Resources */,
 				95F38DF1244E196C00D48E1A /* Assets.xcassets in Resources */,
+				95F38E35244EB49B00D48E1A /* house01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F38E23244E9FB000D48E1A /* HelpPage.swift in Sources */,
+				95F38E2F244EAFC800D48E1A /* HouseDetail.swift in Sources */,
+				95F38E2D244EA75300D48E1A /* Data.swift in Sources */,
+				95F38E1F244E9ECF00D48E1A /* HomePage.swift in Sources */,
 				95F38DEB244E196A00D48E1A /* AppDelegate.swift in Sources */,
+				95F38E21244E9F8800D48E1A /* HouseList.swift in Sources */,
+				95F38E27244EA11900D48E1A /* House.swift in Sources */,
+				95F38E1D244E97C800D48E1A /* CircleImage.swift in Sources */,
+				95F38E25244EA00300D48E1A /* HouseRow.swift in Sources */,
 				95F38DED244E196A00D48E1A /* SceneDelegate.swift in Sources */,
 				95F38DEF244E196A00D48E1A /* ContentView.swift in Sources */,
 			);

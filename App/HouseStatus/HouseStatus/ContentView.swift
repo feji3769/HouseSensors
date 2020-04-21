@@ -13,27 +13,42 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("First View")
+            VStack{
+                HomePage()
+            }
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("first")
-                        Text("First")
+                        Text("Home")
                     }
                 }
                 .tag(0)
-            Text("Second View")
+            VStack{HouseList()}
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("second")
-                        Text("Second")
+                        Text("House List").font(.title).foregroundColor(.green)
                     }
                 }
                 .tag(1)
+            VStack{HelpPage()}
+                .font(.title)
+                .tabItem {
+                    VStack {
+                        Image("second")
+                        Text("Help")
+                    }
+                }
+                .tag(2)
         }
     }
 }
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
