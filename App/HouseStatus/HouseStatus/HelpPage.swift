@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HelpPage: View {
     var body: some View {
-        Text("For assistance contact Felix M. at : 970 274 9808 ")
+        Text("For assistance contact Felix M. at : \n 970 274 9808 \n felix.m.jimenez3@gmail.com")
     }
 }
 
