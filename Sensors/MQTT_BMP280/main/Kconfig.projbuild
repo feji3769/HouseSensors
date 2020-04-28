@@ -1,0 +1,13 @@
+menu "Example Configuration"
+
+    config BROKER_URL
+        string "mqtt://10.0.0.175:1883"
+        default "mqtt://mqtt.eclipse.org"
+        help
+            URL of the broker to connect to
+
+    config BROKER_URL_FROM_STDIN
+        bool
+        default y if BROKER_URL = "FROM_STDIN"
+
+endmenu

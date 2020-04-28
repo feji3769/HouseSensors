@@ -1,0 +1,9 @@
+Pressure: 83605.30 Pa, Temperature: 26.17 C, Humidity: 39.78
+Pressure: 83605.64 Pa, Temperature: 26.16 C, Humidity: 39.79
+Pressure: 83605.66 Pa, Temperature: 26.15 C, Humidity: 39.68
+Pressure: 83607.35 Pa, Temperature: 26.16 C, Humidity: 39.63
+Pressure: 83604.66 Pa, Temperature: 26.15 C, Humidity: 39.67
+Pressure: 83609.69 Pa, Temperature: 26.17 C, Humidity: 39.80
+Pressure: 83608.03 Pa, Temperature: 26.16 C, Humidity: 39.73
+Pressure: 83607.66 Pa, Temperature: 26.17 C, Humidity: 39.69
+Pressure: 83607.33 Pa, Temperature: 26.16 C, Humidity: 39.78

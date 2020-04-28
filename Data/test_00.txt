@@ -1,0 +1,5 @@
+New Data Recieved at: today
+temp: 72
+pressure: 1
+leak: 0
+error: 0

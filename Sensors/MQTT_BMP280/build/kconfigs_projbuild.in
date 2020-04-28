@@ -1,0 +1,6 @@
+source "/home/felix/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "/home/felix/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/felix/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/felix/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/felix/Documents/HouseSensors/Sensors/MQTT_BMP280/main/Kconfig.projbuild"
+source "/home/felix/UncleRus/components/protocol_examples_common/Kconfig.projbuild"
