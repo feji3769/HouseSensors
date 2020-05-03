@@ -30,7 +30,8 @@
 
 
 #include <bmp280.h>
-
+#define house_id 001
+#define sensor_id 001
 
 #if defined(CONFIG_IDF_TARGET_ESP8266)
 #define SDA_GPIO 4
@@ -42,6 +43,21 @@
 
 static const char *TAG = "MQTT_EXAMPLE";
 
+int get_int_len (int value){
+  int l=1;
+  while(value>9){ l++; value/=10; }
+  return l;
+}
+
+
+void json_data(char* data, int House_id, int Sensor_id, float temp, float pressure, float humidity){
+    sprintf(data,  
+    "{\"house_id\":%d,\"sensor_id\":%d,\"pressure\":%.2f,\"temperature\":%.2f,\"humidity\":%.2f}\n",
+    House_id, Sensor_id, pressure, temp, humidity);
+    
+}
+
+
 void waitFor (unsigned int secs) {
     unsigned int retTime = time(0) + secs;   // Get finishing time.
     while (time(0) < retTime);               // Loop until it arrives.
@@ -50,7 +66,6 @@ static esp_err_t mqtt_event_handler_cb(esp_mqtt_event_handle_t event)
 {
     esp_mqtt_client_handle_t client = event->client;
     int msg_id;
-    char data [60];
     // your_context_t *context = event->context;
     switch (event->event_id) {
         case MQTT_EVENT_CONNECTED:
@@ -84,7 +99,11 @@ static esp_err_t mqtt_event_handler_cb(esp_mqtt_event_handle_t event)
             * sdkconfig for ESP8266, which is enabled by default for this
             * example. see sdkconfig.defaults.esp8266
             */
-            sprintf(data, "Pressure: %.2f Pa, Temperature: %.2f C, Humidity: %.2f\n", pressure, temperature, humidity);
+
+            int my_int = (int) pressure + humidity + temperature;
+            int num_digits = get_int_len(my_int);
+            char data[115 + num_digits];
+            json_data(data, house_id, sensor_id, temperature, pressure, humidity);
 
             ESP_LOGI(TAG, "MQTT_EVENT_CONNECTED");
             msg_id = esp_mqtt_client_publish(client, "/topic/qos1", data, 0, 1, 0);
